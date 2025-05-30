@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useTheme } from '../context/ThemeContext';
 import { FiSettings } from 'react-icons/fi';
+import { resolveBackground } from '../utils/themeUtils';
 
 const bgOptions = [
   { name: 'B & W', value: 'bw-gradient' },
@@ -11,27 +12,6 @@ const bgOptions = [
   { name: 'Blue', value: '#0000ff' },
   { name: 'Rainbow', value: 'rainbow-gradient' },
 ];
-
-const resolveBackground = (bg: string) => {
-  switch (bg) {
-    case 'bw-gradient':
-      return 'linear-gradient(135deg, white, black)';
-      case 'rainbow-gradient':
-        return `repeating-linear-gradient(
-          135deg,
-          red 0% 5%,
-            orange 5% 10%,
-            yellow 10% 15%,
-            green 15% 20%,
-            blue 20% 25%,
-            indigo 25% 30%,
-            violet 30% 35%
-          )`;        
-      
-    default:
-      return bg;
-  }
-};
 
 export default function SettingsPage() {
   const { theme, setTheme } = useTheme();

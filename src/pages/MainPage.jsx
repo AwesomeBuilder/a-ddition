@@ -4,7 +4,7 @@ export default function MainPage() {
   const navigate = useNavigate();
 
   return (
-    <div className="p-8 max-w-4xl mx-auto">
+    <div className="min-h-screen w-full p-8 flex flex-col items-center" style={{ background: "transparent" }}>
       <h1 className="text-4xl font-bold mb-6 text-center text-blue-600">
         Welcome
       </h1>

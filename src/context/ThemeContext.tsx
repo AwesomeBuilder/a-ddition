@@ -1,5 +1,6 @@
 // src/context/ThemeContext.tsx
 import React, { createContext, useContext, useState, useEffect } from 'react';
+import { resolveBackground } from '../utils/themeUtils';
 
 type Theme = {
   backgroundColor: string;
@@ -28,26 +29,6 @@ export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
   const setTheme = (t: Theme) => {
     setThemeState(t);
     localStorage.setItem('theme', JSON.stringify(t));
-  };
-
-  const resolveBackground = (bg: string) => {
-    switch (bg) {
-      case 'bw-gradient':
-        return 'linear-gradient(135deg, white, black)';
-        case 'rainbow-gradient':
-          return `repeating-linear-gradient(
-            135deg,
-            red 0% 5%,
-            orange 5% 10%,
-            yellow 10% 15%,
-            green 15% 20%,
-            blue 20% 25%,
-            indigo 25% 30%,
-            violet 30% 35%
-          )`;        
-      default:
-        return bg; // assume it's a hex value like #ffffff
-    }
   };
 
   useEffect(() => {
