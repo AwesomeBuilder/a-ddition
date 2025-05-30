@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MainPage from './pages/MainPage';
-import SettingsPage from './pages/SettingsPage';
+import SettingsPage from './pages/SettingsPage.tsx';
 import LevelsPage from './pages/LevelsPage';
 import DrawingPage from './pages/DrawingPage';
 import MathQuestionPage from './pages/MathQuestionPage';
