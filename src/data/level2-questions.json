@@ -1,0 +1,37 @@
+[
+  {
+    "id": 6,
+    "question": "What is 24 + 17?",
+    "options": ["39", "40", "41", "42"],
+    "correctAnswer": 2,
+    "explanation": "24 + 17 = 41"
+  },
+  {
+    "id": 7,
+    "question": "What is 50 - 23?",
+    "options": ["26", "27", "28", "29"],
+    "correctAnswer": 1,
+    "explanation": "50 - 23 = 27"
+  },
+  {
+    "id": 8,
+    "question": "What is 8 × 7?",
+    "options": ["54", "55", "56", "57"],
+    "correctAnswer": 2,
+    "explanation": "8 × 7 = 56"
+  },
+  {
+    "id": 9,
+    "question": "What is 72 ÷ 8?",
+    "options": ["8", "9", "10", "11"],
+    "correctAnswer": 1,
+    "explanation": "72 ÷ 8 = 9"
+  },
+  {
+    "id": 10,
+    "question": "What is 35 + 29?",
+    "options": ["62", "63", "64", "65"],
+    "correctAnswer": 2,
+    "explanation": "35 + 29 = 64"
+  }
+]

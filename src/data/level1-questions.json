@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "question": "What is 3 + 5?",
+    "options": ["6", "7", "8", "9"],
+    "correctAnswer": 2,
+    "explanation": "3 + 5 = 8"
+  },
+  {
+    "id": 2,
+    "question": "What is 9 - 4?",
+    "options": ["4", "5", "6", "7"],
+    "correctAnswer": 1,
+    "explanation": "9 - 4 = 5"
+  },
+  {
+    "id": 3,
+    "question": "What is 2 × 6?",
+    "options": ["10", "11", "12", "13"],
+    "correctAnswer": 2,
+    "explanation": "2 × 6 = 12"
+  },
+  {
+    "id": 4,
+    "question": "What is 15 ÷ 3?",
+    "options": ["4", "5", "6", "7"],
+    "correctAnswer": 1,
+    "explanation": "15 ÷ 3 = 5"
+  },
+  {
+    "id": 5,
+    "question": "What is 7 + 8?",
+    "options": ["14", "15", "16", "17"],
+    "correctAnswer": 1,
+    "explanation": "7 + 8 = 15"
+  }
+]

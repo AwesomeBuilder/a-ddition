@@ -1,0 +1,37 @@
+[
+  {
+    "id": 21,
+    "question": "What is 789 + 456 + 123?",
+    "options": ["1366", "1367", "1368", "1369"],
+    "correctAnswer": 2,
+    "explanation": "789 + 456 + 123 = 1368"
+  },
+  {
+    "id": 22,
+    "question": "What is 2000 - 789?",
+    "options": ["1209", "1210", "1211", "1212"],
+    "correctAnswer": 2,
+    "explanation": "2000 - 789 = 1211"
+  },
+  {
+    "id": 23,
+    "question": "What is 48 × 27?",
+    "options": ["1294", "1295", "1296", "1297"],
+    "correctAnswer": 2,
+    "explanation": "48 × 27 = 1296"
+  },
+  {
+    "id": 24,
+    "question": "What is 1728 ÷ 24?",
+    "options": ["70", "71", "72", "73"],
+    "correctAnswer": 2,
+    "explanation": "1728 ÷ 24 = 72"
+  },
+  {
+    "id": 25,
+    "question": "What is (15 × 4) + (20 × 3)?",
+    "options": ["118", "119", "120", "121"],
+    "correctAnswer": 2,
+    "explanation": "(15 × 4) + (20 × 3) = 60 + 60 = 120"
+  }
+]

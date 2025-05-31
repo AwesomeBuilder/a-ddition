@@ -1,0 +1,37 @@
+[
+  {
+    "id": 11,
+    "question": "What is 123 + 89?",
+    "options": ["210", "211", "212", "213"],
+    "correctAnswer": 2,
+    "explanation": "123 + 89 = 212"
+  },
+  {
+    "id": 12,
+    "question": "What is 200 - 76?",
+    "options": ["122", "123", "124", "125"],
+    "correctAnswer": 2,
+    "explanation": "200 - 76 = 124"
+  },
+  {
+    "id": 13,
+    "question": "What is 12 × 11?",
+    "options": ["130", "131", "132", "133"],
+    "correctAnswer": 2,
+    "explanation": "12 × 11 = 132"
+  },
+  {
+    "id": 14,
+    "question": "What is 144 ÷ 12?",
+    "options": ["11", "12", "13", "14"],
+    "correctAnswer": 1,
+    "explanation": "144 ÷ 12 = 12"
+  },
+  {
+    "id": 15,
+    "question": "What is 45 × 3?",
+    "options": ["133", "134", "135", "136"],
+    "correctAnswer": 2,
+    "explanation": "45 × 3 = 135"
+  }
+]

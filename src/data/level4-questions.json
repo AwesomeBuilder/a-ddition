@@ -1,0 +1,37 @@
+[
+  {
+    "id": 16,
+    "question": "What is 456 + 238?",
+    "options": ["692", "693", "694", "695"],
+    "correctAnswer": 2,
+    "explanation": "456 + 238 = 694"
+  },
+  {
+    "id": 17,
+    "question": "What is 1000 - 347?",
+    "options": ["651", "652", "653", "654"],
+    "correctAnswer": 2,
+    "explanation": "1000 - 347 = 653"
+  },
+  {
+    "id": 18,
+    "question": "What is 25 × 16?",
+    "options": ["398", "399", "400", "401"],
+    "correctAnswer": 2,
+    "explanation": "25 × 16 = 400"
+  },
+  {
+    "id": 19,
+    "question": "What is 225 ÷ 15?",
+    "options": ["14", "15", "16", "17"],
+    "correctAnswer": 1,
+    "explanation": "225 ÷ 15 = 15"
+  },
+  {
+    "id": 20,
+    "question": "What is (12 + 8) × 5?",
+    "options": ["98", "99", "100", "101"],
+    "correctAnswer": 2,
+    "explanation": "(12 + 8) × 5 = 20 × 5 = 100"
+  }
+]
