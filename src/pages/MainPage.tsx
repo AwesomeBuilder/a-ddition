@@ -12,11 +12,11 @@ export default function MainPage() {
       <h1 className="text-4xl font-bold mb-6 text-center">to</h1>
       <h1 className="text-4xl font-bold mb-6 text-center">A-ddition</h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-5">
+      <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-12 gap-5">
         {/* Math Questions (Easy Level 1) Button */}
         <button
           onClick={() => navigate("/questions/easy/1")}
-          className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-6 px-8 rounded-lg shadow-lg transform hover:scale-105 transition-all duration-200 flex flex-col items-center col-span-2"
+          className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-6 px-8 rounded-lg shadow-lg transform hover:scale-105 transition-all duration-200 flex flex-col items-center col-span-4"
         >
           <span className="text-3xl mb-2">🧮</span>
           <span className="text-lg">Play</span>
@@ -24,7 +24,7 @@ export default function MainPage() {
         {/* Settings Button */}
         <button
           onClick={() => navigate("/settings")}
-          className="bg-purple-500 hover:bg-purple-600 text-white font-bold py-6 px-8 rounded-lg shadow-lg transform hover:scale-105 transition-all duration-200 flex flex-col items-center"
+          className="bg-purple-500 hover:bg-purple-600 text-white font-bold py-6 px-8 rounded-lg shadow-lg transform hover:scale-105 transition-all duration-200 flex flex-col items-center col-span-2"
         >
           <span className="text-3xl mb-2">⚙️</span>
           <span className="text-lg">Settings</span>
@@ -33,7 +33,7 @@ export default function MainPage() {
         {/* Drawing Page 1 Button */}
         <button
           onClick={() => navigate("/drawing/1")}
-          className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-6 px-8 rounded-lg shadow-lg transform hover:scale-105 transition-all duration-200 flex flex-col items-center"
+          className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-6 px-8 rounded-lg shadow-lg transform hover:scale-105 transition-all duration-200 flex flex-col items-center col-span-3"
         >
           <span className="text-3xl mb-2">🎨</span>
           <span className="text-lg">Draw</span>
@@ -42,7 +42,7 @@ export default function MainPage() {
         {/* Levels Button */}
         <button
           onClick={() => navigate("/levels")}
-          className="bg-green-500 hover:bg-green-600 text-white font-bold py-6 px-8 rounded-lg shadow-lg transform hover:scale-105 transition-all duration-200 flex flex-col items-center"
+          className="bg-green-500 hover:bg-green-600 text-white font-bold py-6 px-8 rounded-lg shadow-lg transform hover:scale-105 transition-all duration-200 flex flex-col items-center col-span-3"
         >
           <span className="text-3xl mb-2">🎯</span>
           <span className="text-lg">Levels</span>

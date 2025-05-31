@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import MainPage from './pages/MainPage';
+import MainPage from './pages/MainPage.tsx';
 import SettingsPage from './pages/SettingsPage.tsx';
-import LevelsPage from './pages/LevelsPage';
-import DrawingPage from './pages/DrawingPage';
-import MathQuestionPage from './pages/MathQuestionPage';
+import LevelsPage from './pages/LevelsPage.tsx';
+import DrawingPage from './pages/DrawingPage.tsx';
+import MathQuestionPage from './pages/MathQuestionPage.tsx';
 
 export default function App() {
   return (
